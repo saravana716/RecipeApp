@@ -1,6 +1,120 @@
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/saravana716/RecipeApp.git
-git push -u origin main
+.RecipeCart{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 2px solid transparent;
+    box-shadow:  0 4px 12px 0 gainsboro;
+    border-radius: 6px;
+    transition: 0.7s;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+}
+
+.RecipeCart:hover{
+border: 2px solid  #db2f0a;
+transition: 0.7s;
+
+}
+
+.RecipeCartimg{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    background-color: red;
+    border-radius: 6px;
+}
+.RecipeCartContent{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    gap: 7px;
+}
+.RecipeCartContent h2{
+    font-size: 14px;
+    color: gray;
+    font-weight: normal;
+}
+.RecipeCartContent h3{
+    font-size: 18px;
+}
+.foodName h4{
+font-weight: 600;
+}
+.foodName h4 span{
+    font-size: 14px;
+    color: gray;
+    font-weight: normal;
+
+}
+.foodName{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.RecipeCartimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.RecipeCartActions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.RecipeCartActions button{
+    width: 100%;
+    height: 20px;
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 6px;
+    background-color: #db2f0a;
+    color: white;
+    justify-content: center;
+
+}
+.RecipeCart h6{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #db2f0a;
+    color: white;
+    justify-content: center;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.favicon{
+    font-size: 20px;
+    cursor: pointer;
+}
+.RecipeCart h6 p{
+    position: absolute;
+    background-color: white;
+    color: black;
+    border-radius: 100%;
+    padding: 7px;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -1px;
+    right: -2px;
+    border: 1px solid #db2f0a;
+    font-size: 13px;
+}
+.view{
+    cursor: pointer;
+}
