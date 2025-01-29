@@ -1,0 +1,17 @@
+
+.HomeMain{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+}
+.Home{
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+    grid-gap: 30px;
+    
+}
